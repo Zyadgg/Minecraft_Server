@@ -1,0 +1,207 @@
+/* إعادة تعيين هوامش وحشو افتراضية للعناصر المحددة */
+body, h1, h2, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f2f1;
+  color: #004d40;
+}
+
+#container {
+  text-align: center;
+}
+
+#header {
+  background-color: #00acc1;
+  padding: 10px;
+  text-align: center;
+}
+
+#header a {
+  color: #f1f8e9;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+#container div {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#main-heading {
+  color: #009688;
+}
+
+#footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #00acc1;
+  color: #004d40;
+}
+
+#server-controls {
+  margin-top: 15px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+input[type="button"] {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 14px;
+  border-style: none;
+}
+
+#create-server-button {
+  background-color: #43a047;
+  color: #ffffff;
+}
+
+#edit-server-button {
+  background-color: #1e88e5;
+  color: #ffffff;
+}
+
+#run-button {
+  background-color: #004d40;
+  color: #ffffff;
+}
+
+#service-box {
+  display: flex;
+  background: #80cbc4;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#date {
+  border-radius: 10px;
+  padding: 8px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+#create-server-box input[type="text"],
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#create-button,
+#cancel-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#create-button {
+  margin-right: 10px;
+}eate-button {
+  margin-right: 10px;
+} أخضر داكن */
+  color: #ffffff; /* لون خط أبيض */
+}
+
+.edit {
+  background-color: #1e88e5; /* خلفية زرقاء داكنة */
+  color: #ffffff; /* لون خط أبيض */
+}
+
+.run {
+  background-color: #004d40; /* خلفية خضراء داكنة */
+  color: #ffffff; /* لون خط أبيض */
+}
+
+/* تنسيق للصنف server_box بخصائص محددة */
+.server_box {
+  display: flex;
+  background: #80cbc4; /* خلفية زرقاء فاتحة */
+  border-radius: 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* تنسيق إضافي للصنف date */
+.date {
+  margin: initial;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+/* تنسيق لعنصر القائمة */
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* تعديل مظهر النص التوضيحي */
+::placeholder {
+  text-align: center; /* وضع النص في وسط الحقل */
+}
+
+
+
+
+
+
+
+/* تنسيق عناصر الإدخال والأزرار داخل العنصر <div> */
+
+
+#Create_box input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#Create_box .create-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #4CAF50; /* لون أخضر */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#Create_box .cancel-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #f44336; /* لون أحمر */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* تنسيق الزرار الأول بالوسط بين الأزرار */
+#Create_box .create-button {
+  margin-right: 10px;
+}

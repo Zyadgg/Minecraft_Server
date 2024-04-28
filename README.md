@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # My_web_For_Minecraft_Server
 I was happy to develop my website 
 =======
@@ -42,5 +41,4 @@ I was happy to develop my website
 
 ## الأسئلة والدعم
 إذا كان لديك أي أسئلة أو اقتراحات أو تحتاج إلى دعم فني، فلا تتردد في [التواصل معنا](mailto:developer@example.com).
->>>>>>> d92928c (رسالة توضيحية للتغييرات)
-# Minecraft_Server
+
